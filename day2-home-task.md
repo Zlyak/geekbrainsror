@@ -1,104 +1,181 @@
 ## Answer this questions, and comment why is this happening
 
 1) Assign the variable x to the value 5.
+```
+#Answer: 
+  x = 5
+```
+
 
 2) What is the datatype of "Matt"?
+```
+#Answer: string
+```
 
 3) x = 5. Is x a string?
+```
+#Answer: No it isn't, x is a integer
+```
+ 
 
 4) What does this expression evaluate to?
 ```
 "YO" + "LO"
+
+#Answer: This expression  returns 'YOLO'
 ```
 5) What does this expression evaluate to?
 ```
 "Cool".+("io")
+
+#Answer: This expression  returns 'Coolio'
 ```
 6) What does this expression evaluate to?
 ```
 "bob" + 42
+
+#Answer: This expression  returns TypeError
 ```
+
+
 7) What does this expression evaluate to?
 ```
 a = "Bat"
 b = "woman"
 a + b
+
+#Answer: "Batwoman" 
 ```
+  
+  
 8) What does this expression print?
 
 ```
 my_name = "50 Cent"
 my_name = "Miley"
 p my_name
+
+#Answer: "Miley"
 ```
 9) Get the first letter from the string "Jaydakiss".
-
+```
+#Answer: 
+  str1 = 'Jaydakiss'
+  first_symbol = str1[1,1]
+```
 10) Get the first through 3rd elements from the "Jaydakiss" string.
-
+```
+#Answer: 
+  str1 = 'Jaydakiss'
+  first_symbol = str1[1,3]
+```  
 11) Get the last element from the "Jaydakiss" string.
-
+```
+#Answer: 
+  str1 = 'Jaydakiss'
+  first_symbol = str1[-1,1]
+```  
 12) Replace the "l" in the following string with "m":
 ```
 word = "lace"
+
+#Answer: 
+  word['l']='m'
 ```
 13) Assign the variable my_dawg to the value "DMX"
-
+```
+#Answer:
+  my_dawg = 'DMX'
+```
 14) What does the following expression evaluate to?
 ```
 "Dead Poet" = fav_bar
+
+#Answer: syntax error, unexpected '=', expecting keyword_end
 ```
 15) What does the following expression print?
 ```
 something = "cats"
 crazy = something
 puts crazy
+
+#Answer: cats
 ```
 16) What does the following expression evaluate to?
 ```
 3 + 4
+
+#Answer: 7
 ```
 17) What does the following expression evaluate to?
 ```
 4 * 7
+
+#Answer: 28
 ```
 18) What does the following expression evaluate to?
 ```
 2 ** 3
+
+#Answer: 8
 ```
 19) What does the following expression evaluate to?
 ```
 8 / 2
+
+#Answer: 4
 ```
 20) What does the following expression evaluate to?
 ```
 3 / 2
+
+#Answer: 1
 ```
 21) What does the following expression evaluate to?
 ```
 3.0 / 2.0
+
+#Answer: 1.5
 ```
 22) What does the following expression evaluate to?
 ```
 "i am not shouting".upcase()
+
+#Answer: "I AM NOT SHOUTING"
 ```
 23) Convert every letter of "YoLo BrAh" to lowercase.
 ```
 nice = "YoLo BrAh"
+
+#Answer: 
+  nice.downcase()
 ```
 24) Concatenate the following strings:
 ```
 first = "Beautiful "
 second = "face tattoo"
+
+#Answer: third=first+second
 ```
 25) Convert the number 5 to the string "5".
+```
+#Answer: 
+  num=5
+  str=num.to_s
+```
 
 26) What is the problem with the following code?
 ```
 my variable = "Mr. White"
+
+#Answer: do not need to specify a variable, right:
+my = "Mr. White"
 ```
 27) Update the code, so it can run successfully:
 ```
 band = "Blink" + 182
+#Answer:
+  band = "Blink" + '182'
 ```
 28) my_array is an array with the values "matt" and "phil". Arrays are collections of values:
 ```
